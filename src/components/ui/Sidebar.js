@@ -181,7 +181,7 @@ export const Sidebar = () => {
             </svg>
             <span className="text-lg hidden md:inline-block">Projects</span>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             exact
             activeClassName="text-yellow-400  border-t-4 md:border-l-4 md:border-t-0 border-yellow-400"
             className="p-1 mb-1 md:pr-3 md:mb-4 text-gray-400 text-center md:text-left inline-block hover:text-indigo-700 flex-1 md:border-l-4 border-indigo-900 hover:border-yellow-400 border-t-4 md:border-t-0"
@@ -202,7 +202,7 @@ export const Sidebar = () => {
               />
             </svg>
             <span className="text-lg hidden md:inline-block">Contact</span>
-          </NavLink>
+          </NavLink> */}
         </nav>
 
         <div className="hidden md:flex md:justify-center">
