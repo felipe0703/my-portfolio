@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 import { GitHub, Visibility } from "@material-ui/icons";
 
-export const CardProject2 = ({ project }) => {
+export const CardProject2 = memo(({ project }) => {
   const { title, category, description, image, url } = project;
 
   return (
@@ -33,4 +33,4 @@ export const CardProject2 = ({ project }) => {
       </div>
     </div>
   );
-};
+});

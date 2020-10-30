@@ -8,22 +8,19 @@ export const ProjectsScreen = () => {
 
   //consultar la base de datos
   useEffect(() => {
-    const getProjects = () => {
-      firebase.db.collection("projects").onSnapshot(handleSnapshot);
-    };
-    getProjects();
-  }, []);
+    firebase.db.collection("projects").onSnapshot(handleSnapshot);
+  }, [firebase.db]);
 
   // usar base de datos en tiempo real
   function handleSnapshot(snapshot) {
-    const platillos = snapshot.docs.map((doc) => {
+    const proj = snapshot.docs.map((doc) => {
       return {
         id: doc.id,
         ...doc.data(),
       };
     });
 
-    setProjects(platillos);
+    setProjects(proj);
   }
 
   return (
