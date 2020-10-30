@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import { Sidebar } from "../ui/Sidebar";
 import { AboutScreen } from "./AboutScreen";
-// import { ContactScreen } from "./ContactScreen";
+import { ContactScreen } from "./ContactScreen";
 import { HomeScreen } from "./HomeScreen";
 import { ProjectsScreen } from "./ProjectsScreen";
 import { ServicesScreen } from "./ServicesScreen";
@@ -23,7 +23,7 @@ export const AppRouter = () => {
             <Route exact path="/" component={HomeScreen} />
             <Route exact path="/about" component={AboutScreen} />
             <Route exact path="/projects" component={ProjectsScreen} />
-            {/* <Route exact path="/contact" component={ContactScreen} /> */}
+            <Route exact path="/contact" component={ContactScreen} />
             <Route exact path="/services" component={ServicesScreen} />
             <Redirect to="/" />
           </Switch>

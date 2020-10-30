@@ -9,16 +9,14 @@ export const AboutScreen = () => {
   return (
     <div className="h-full flex flex-1 overflow-hidden ">
       <aside className="flex-1 overflow-y-auto flex flex-col">
-        {/* title */}
         <div className="container mx-auto px-6 mb-5 sm:mt-10">
           <p className="text-btn font-bold text-3xl">Sobre mí</p>
           <p className="text-background4 font-semibold text-2xl border-b-2 border-indigo-700 pb-2 inline-block">
             Aprende más sobre mí
           </p>
         </div>
-        {/* imagenes y resumen */}
+
         <div className="container mx-auto px-6 flex flex-col xl:flex-row xl:items-center ">
-          {/* imágenes */}
           <div className="grid grid-cols-2 gap-2 mb-5 xl:mb-0">
             <img
               className="rounded-xl mt-5 shadow-lg"
@@ -42,7 +40,6 @@ export const AboutScreen = () => {
             />
           </div>
 
-          {/* resumen */}
           <div className="bg-white rounded-tl-3xl rounded-br-3xl xl:ml-5 p-4 shadow-md">
             <h1 className="font-bold text-2xl text-background4 mb-3">
               Fullstack Developer
@@ -61,7 +58,7 @@ export const AboutScreen = () => {
                 Contacto
               </button>
             </div>
-            {/* iconos numeros */}
+
             <div className="flex flex-col lg:flex-row lg:justify-center  mt-5">
               <div className="flex items-center mr-10 mb-3 lg:mb-0">
                 <div className="-mt-2">
@@ -119,7 +116,6 @@ export const AboutScreen = () => {
           </div>
         </div>
 
-        {/* Intereses */}
         <div className="container mx-auto p-6 sm:mt-10">
           <h2 className="text-white font-semibold text-xl mb-5 bg-indigo-700 rounded-r-full rounded-t-full inline-block p-3">
             Intereses
@@ -132,7 +128,6 @@ export const AboutScreen = () => {
           </p>
         </div>
 
-        {/* tecnologías */}
         <div className="container mx-auto p-6 sm:mt-10 mb-20">
           <h2 className="text-white font-semibold text-xl mb-5 bg-indigo-700 rounded-r-full rounded-t-full inline-block p-3">
             Tecnologías
@@ -248,78 +243,6 @@ export const AboutScreen = () => {
             </div>
           </div>
         </div>
-        {/* testimonios */}
-        {/* <div className="mt-10 mb-20">
-          <h3 className="text-white font-semibold text-2xl mb-5  bg-indigo-700 rounded-r-full rounded-t-full inline-block p-3">
-            Testimonios
-          </h3>
-
-          <div className="grid grid-cols-3 gap-4">
-            <div className="rounded-lg bg-white shadow-lg p-3 ">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-                culpa, aliquid animi magni laboriosam modi nam cumque ab
-                temporibus deserunt eos minus nobis perferendis ea voluptates
-                incidunt voluptas tenetur doloribus?
-              </p>
-              <div className="-mb-12 flex mt-5 content-start">
-                <img
-                  className="rounded-full border-8 border-indigo-800 h-24"
-                  src={require("../../assets/img/foto.png")}
-                  alt="imagen código web"
-                />
-                <div className="ml-5 flex flex-col">
-                  <p className="font-bold text-background4 text-lg">
-                    Marco Toloza
-                  </p>
-                  <p className="text-background5">CEO empresa</p>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-lg bg-white shadow-lg p-3 ">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-                culpa, aliquid animi magni laboriosam modi nam cumque ab
-                temporibus deserunt eos minus nobis perferendis ea voluptates
-                incidunt voluptas tenetur doloribus?
-              </p>
-              <div className="-mb-12 flex mt-5 content-start">
-                <img
-                  className="rounded-full border-8 border-indigo-800 h-24"
-                  src={require("../../assets/img/foto.png")}
-                  alt="imagen código web"
-                />
-                <div className="ml-5 flex flex-col">
-                  <p className="font-bold text-background4 text-lg">
-                    Marco Toloza
-                  </p>
-                  <p className="text-background5">CEO empresa</p>
-                </div>
-              </div>
-            </div>
-            <div className="rounded-lg bg-white shadow-lg p-3 ">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis,
-                culpa, aliquid animi magni laboriosam modi nam cumque ab
-                temporibus deserunt eos minus nobis perferendis ea voluptates
-                incidunt voluptas tenetur doloribus?
-              </p>
-              <div className="-mb-12 flex mt-5 content-start">
-                <img
-                  className="rounded-full border-8 border-indigo-800 h-24"
-                  src={require("../../assets/img/foto.png")}
-                  alt="imagen código web"
-                />
-                <div className="ml-5 flex flex-col">
-                  <p className="font-bold text-background4 text-lg">
-                    Marco Toloza
-                  </p>
-                  <p className="text-background5">CEO empresa</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </aside>
     </div>
   );

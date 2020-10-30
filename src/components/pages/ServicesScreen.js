@@ -5,15 +5,12 @@ export const ServicesScreen = () => {
   return (
     <div className="h-full mx-auto flex flex-1 overflow-hidden">
       <aside className="flex-1 overflow-y-auto flex flex-col">
-        {/* title */}
-        {/* <div className=" container mx-auto mb-5 pt-10 px-6  bg-gradient-to-r from-indigo-900 to-indigo-700"> */}
         <div className=" container mx-auto mb-5 pt-10 px-6">
           <h1 className="text-btn font-bold text-3xl">Servicios</h1>
           <p className="mb-5 text-background4 text-2xl font-semibold  border-b-2 border-indigo-700 pb-2 inline-block">
             Servicios que puedan necesitar
           </p>
         </div>
-        {/* servicios */}
         <div className="container mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 gap-5">
           <CardServices
             title="Diseño UI/UX"
@@ -38,7 +35,6 @@ export const ServicesScreen = () => {
             cshart={true}
           />
         </div>
-        {/* fin secction  */}
       </aside>
     </div>
   );

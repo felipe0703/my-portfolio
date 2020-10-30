@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import {
-  // Reddit,
   Instagram,
   YouTube,
   GitHub,
@@ -11,10 +10,8 @@ import {
 
 export const Sidebar = () => {
   return (
-    // <div className="w-full md:w-1/4 lg:w-1/5 xl:w-1/6 bg-indigo-900 absolute bottom-0 left-0 md:static md:inset-0 ">
     <div className="w-full md:w-1/4 lg:w-1/5 xl:w-1/6 bg-indigo-900 fixed bottom-0 md:static border-background5 md:border-r ">
       <div className="p-2 md:p-6 md:min-h-screen flex flex-col">
-        {/* Title */}
         <div className="hidden md:flex md:flex-initial flex-col items-center">
           <img
             className="rounded-full h-32 w-32 border-indigo-700 border-8"
@@ -28,7 +25,6 @@ export const Sidebar = () => {
             </h2>
           </Link>
 
-          {/* social media */}
           <nav className=" hidden md:flex md:flex-initial">
             <ul className="grid md:grid-cols-5 gap-1 mx-auto">
               <li className="flex justify-center items-center">
@@ -90,7 +86,6 @@ export const Sidebar = () => {
           </nav>
         </div>
 
-        {/* menu */}
         <nav className="md:my-auto md:mx-auto flex md:flex-col md:pb-8">
           <NavLink
             exact
@@ -181,7 +176,7 @@ export const Sidebar = () => {
             </svg>
             <span className="text-lg hidden md:inline-block">Projects</span>
           </NavLink>
-          {/* <NavLink
+          <NavLink
             exact
             activeClassName="text-yellow-400  border-t-4 md:border-l-4 md:border-t-0 border-yellow-400"
             className="p-1 mb-1 md:pr-3 md:mb-4 text-gray-400 text-center md:text-left inline-block hover:text-indigo-700 flex-1 md:border-l-4 border-indigo-900 hover:border-yellow-400 border-t-4 md:border-t-0"
@@ -202,7 +197,7 @@ export const Sidebar = () => {
               />
             </svg>
             <span className="text-lg hidden md:inline-block">Contact</span>
-          </NavLink> */}
+          </NavLink>
         </nav>
 
         <div className="hidden md:flex md:justify-center">
