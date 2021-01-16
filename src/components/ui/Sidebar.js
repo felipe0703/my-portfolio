@@ -10,14 +10,16 @@ import {
 
 export const Sidebar = () => {
   return (
-    <div className="w-full md:w-1/4 lg:w-1/5 xl:w-1/6 bg-indigo-900 fixed bottom-0 md:static border-background5 md:border-r ">
+    <header className="w-full md:w-1/4 lg:w-1/5 xl:w-1/6 bg-indigo-900 fixed bottom-0 md:static border-background5 md:border-r ">
       <div className="p-2 md:p-6 md:min-h-screen flex flex-col">
         <div className="hidden md:flex md:flex-initial flex-col items-center">
-          <img
-            className="rounded-full h-32 w-32 border-indigo-700 border-8"
-            src={require("../../assets/img/pexels-alif-sagor-3721646.jpg")}
-            alt="imagen código web"
-          />
+          <picture>
+            <img
+              className="rounded-full h-32 w-32 border-indigo-700 border-8"
+              src={require("../../assets/img/mia.png")}
+              alt="imagen código web"
+            />
+          </picture>
           <Link to="/" className="mt-2">
             <h2 className=" text-white text-xl tracking-wide text-center font-bold">
               {/* <Reddit style={{ color: "#f6e05e", fontSize: 40 }} />  */}
@@ -204,6 +206,6 @@ export const Sidebar = () => {
           <p className="p-4 text-white text-center">@felipeaguileradev</p>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
