@@ -43,12 +43,24 @@ export const HomeScreen = () => {
           <h2 className="text-background4 font-bold text-xl mb-5 ">
             Mis proyectos
           </h2>
+          {/* 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6">
             <CardProject />
             <CardProject />
             <CardProject />
-            <CardProject />
+            <CardProject /> */}
+          {/* <h2 className="text-background4 font-semibold text-xl">
+              En producción
+            </h2> 
           </div>
+            */}
+          <picture className="flex justify-center mb-5 lg:items-center lg:mb-0">
+            <img
+              className="h-56 mr-3 lg:h-auto lg:max-w-2xl  lg:mr-0 "
+              src={require("../../assets/img/undraw_version_control_9bpv.svg")}
+              alt="imagen web developer"
+            />
+          </picture>
         </section>
       </div>
     </div>
