@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { CardProject } from "../ui/CardProject";
+// import { CardProject } from "../ui/CardProject";
 
 export const HomeScreen = () => {
   return (

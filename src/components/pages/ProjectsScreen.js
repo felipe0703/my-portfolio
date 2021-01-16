@@ -1,5 +1,5 @@
 import React from "react";
-import { CardProject2 } from "../ui/CardProject2";
+// import { CardProject2 } from "../ui/CardProject2";
 
 export const ProjectsScreen = () => {
   return (

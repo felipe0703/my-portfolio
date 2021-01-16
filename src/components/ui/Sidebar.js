@@ -1,12 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import {
-  Instagram,
-  YouTube,
-  GitHub,
-  LinkedIn,
-  Twitter,
-} from "@material-ui/icons";
+import { GitHub, LinkedIn } from "@material-ui/icons";
 
 export const Sidebar = () => {
   return (
