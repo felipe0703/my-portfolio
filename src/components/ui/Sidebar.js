@@ -28,8 +28,8 @@ export const Sidebar = () => {
           </Link>
 
           <nav className=" hidden md:flex md:flex-initial">
-            <ul className="grid md:grid-cols-5 gap-1 mx-auto">
-              <li className="flex justify-center items-center">
+            <ul className="grid md:grid-cols-2 gap-1 mx-auto">
+              {/* <li className="flex justify-center items-center">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
                   href="https://www.facebook.com"
@@ -53,11 +53,12 @@ export const Sidebar = () => {
                 >
                   <YouTube style={{ color: "#f6e05e", fontSize: 25 }} />
                 </a>
-              </li>
+              </li> */}
+
               <li className="flex justify-center items-center ">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
-                  href="https://www.facebook.com"
+                  href="https://github.com/felipeaguileradev"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -67,14 +68,14 @@ export const Sidebar = () => {
               <li className="flex justify-center items-center">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
-                  href="https://www.facebook.com"
+                  href="https://www.linkedin.com/in/felipe-aguilera-gonzalez-806201168/"
                   target="_blanck"
                   rel="noopener noreferrer"
                 >
                   <LinkedIn style={{ color: "#f6e05e", fontSize: 25 }} />
                 </a>
               </li>
-              <li className="flex justify-center items-center">
+              {/* <li className="flex justify-center items-center">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
                   href="https://www.facebook.com"
@@ -83,7 +84,7 @@ export const Sidebar = () => {
                 >
                   <Twitter style={{ color: "#f6e05e", fontSize: 30 }} />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>
@@ -109,7 +110,7 @@ export const Sidebar = () => {
                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
               />
             </svg>
-            <span className="text-lg hidden md:inline-block">Home</span>
+            <span className="text-lg hidden md:inline-block">Inicio</span>
           </NavLink>
           <NavLink
             exact
@@ -131,9 +132,9 @@ export const Sidebar = () => {
                 d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
               />
             </svg>
-            <span className="text-lg hidden md:inline-block">About</span>
+            <span className="text-lg hidden md:inline-block">Sobre Mí</span>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             exact
             activeClassName="text-yellow-400  border-t-4 md:border-l-4 md:border-t-0 border-yellow-400"
             className="p-1 mb-1 md:pr-3 md:mb-4 text-gray-400 text-center md:text-left inline-block hover:border-yellow-400 hover:text-indigo-700 flex-1 md:border-l-4 border-indigo-900 border-t-4 md:border-t-0"
@@ -155,7 +156,7 @@ export const Sidebar = () => {
               />
             </svg>
             <span className="text-lg hidden md:inline-block">Servicios</span>
-          </NavLink>
+          </NavLink> */}
           <NavLink
             exact
             activeClassName="text-yellow-400  border-t-4 md:border-l-4 md:border-t-0 border-yellow-400"
@@ -176,7 +177,7 @@ export const Sidebar = () => {
                 d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
               />
             </svg>
-            <span className="text-lg hidden md:inline-block">Projects</span>
+            <span className="text-lg hidden md:inline-block">Proyectos</span>
           </NavLink>
           <NavLink
             exact
@@ -198,7 +199,7 @@ export const Sidebar = () => {
                 d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
               />
             </svg>
-            <span className="text-lg hidden md:inline-block">Contact</span>
+            <span className="text-lg hidden md:inline-block">Contacto</span>
           </NavLink>
         </nav>
 

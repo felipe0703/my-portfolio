@@ -17,13 +17,13 @@ export const AboutScreen = () => {
         </div>
 
         <div className="container mx-auto px-6 flex flex-col xl:flex-row xl:items-center ">
-          <div className="my-5 xl:mb-0">
+          <picture className="my-5 xl:mb-0">
             <img
               className="max-w-sm mx-auto"
               src={require("../../assets/img/undraw_developer_activity_bv83.svg")}
               alt="imagen código web"
             />
-          </div>
+          </picture>
 
           <div className="bg-white rounded-tl-3xl rounded-br-3xl xl:ml-5 p-4 shadow-md">
             <h1 className="font-bold text-2xl text-background4 mb-3">
@@ -123,13 +123,13 @@ export const AboutScreen = () => {
               me gusta trabajar en proyectos ambiciosos con gente positiva
             </p>
           </div>
-          <div className="mb-5 xl:mb-0 order-first xl:order-last">
+          <picture className="mb-5 xl:mb-0 order-first xl:order-last">
             <img
               className="max-w-sm mx-auto"
               src={require("../../assets/img/undraw_static_website_0107.svg")}
               alt="imagen código web"
             />
-          </div>
+          </picture>
         </div>
 
         <div className="container mx-auto p-6 sm:mt-10 mb-20 mt-5">

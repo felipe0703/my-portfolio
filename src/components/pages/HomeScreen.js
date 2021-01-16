@@ -7,13 +7,13 @@ export const HomeScreen = () => {
     <div className="h-full flex flex-col justify-center align-  flex-1 overflow-hidden pb-20 md:pb-0 ">
       <div className="flex-1 overflow-y-auto xl:pr-5">
         <section className=" container  px-6 mx-auto flex my-5 flex-col lg:flex-row">
-          <div className="flex justify-center mb-5 lg:items-center lg:mb-0">
+          <picture className="flex justify-center mb-5 lg:items-center lg:mb-0">
             <img
               className="h-56 mr-3 lg:h-auto lg:max-w-xs xl:max-w-sm lg:mr-0 "
               src={require("../../assets/img/undraw_web_developer_p3e5.svg")}
               alt="imagen web developer"
             />
-          </div>
+          </picture>
           <div className=" lg:ml-8 flex flex-col justify-between bg-gray-200 ">
             <div className="">
               <h3 className="text-white mb-1 font-semibold bg-indigo-700 inline-block p-3 rounded-r-full rounded-t-full">
@@ -28,7 +28,7 @@ export const HomeScreen = () => {
             </div>
             <div className="mt-2">
               <p className="text-background4 mb-6">
-                Soy desarrollador de aplicaciones Web y Móviles a medida con más
+                Soy desarrollador de aplicaciones Web y Móvil a medida con más
                 de 4 años de experiencia
               </p>
               <button className=" bg-btn hover:bg-gray-200 text-white font-semibold hover:text-btn hover:bg-transparent border border-btn py-2 px-4 rounded-full ">
