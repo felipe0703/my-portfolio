@@ -9,7 +9,6 @@ export const HomeScreen = () => {
         <section className=" container  px-6 mx-auto flex my-5 flex-col lg:flex-row">
           <div className="flex justify-center mb-5 lg:items-center lg:mb-0">
             <img
-              // className="rounded-full border-8 border-indigo-800 h-40 mr-3 lg:h-auto lg:mr-0 "
               className="h-56 mr-3 lg:h-auto lg:max-w-xs xl:max-w-sm lg:mr-0 "
               src={require("../../assets/img/undraw_web_developer_p3e5.svg")}
               alt="imagen web developer"
@@ -18,7 +17,7 @@ export const HomeScreen = () => {
           <div className=" lg:ml-8 flex flex-col justify-between bg-gray-200 ">
             <div className="">
               <h3 className="text-white mb-1 font-semibold bg-indigo-700 inline-block p-3 rounded-r-full rounded-t-full">
-                Hola, soy
+                ¡Hola! soy
               </h3>
               <h2 className="text-background4 font-bold text-5xl mb-1">
                 Felipe Aguilera
@@ -32,8 +31,9 @@ export const HomeScreen = () => {
                 Soy desarrollador de aplicaciones Web y Móviles a medida con más
                 de 4 años de experiencia
               </p>
-              <button className="bg-btn hover:bg-white text-white font-semibold hover:text-btn hover:bg-transparent border border-btn py-2 px-4 rounded-full">
+              <button className=" bg-btn hover:bg-gray-200 text-white font-semibold hover:text-btn hover:bg-transparent border border-btn py-2 px-4 rounded-full ">
                 <Link to="/about">Ver más</Link>
+                {/* Ver más */}
               </button>
             </div>
           </div>
