@@ -52,16 +52,10 @@ export const HomeScreen = () => {
               description="Portafolio básico"
               repo="https://github.com/felipeaguileradev/portafolio-demo"
               url="https://felipeaguileradev.github.io/portafolio-demo/"
+              html={true}
+              css={true}
             />
           </div>
-
-          {/* // <picture className="flex justify-center mb-5 lg:items-center lg:mb-0">
-          //   <img
-          //     className="h-56 mr-3 lg:h-auto lg:max-w-2xl  lg:mr-0 "
-          //     src={require("../../assets/img/undraw_version_control_9bpv.svg")}
-          //     alt="imagen web developer"
-          //   />
-          // </picture> */}
         </section>
       </div>
     </div>

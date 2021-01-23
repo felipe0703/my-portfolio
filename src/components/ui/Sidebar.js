@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import { GitHub, LinkedIn } from "@material-ui/icons";
+import { GitHub, LinkedIn, YouTube } from "@material-ui/icons";
 
 export const Sidebar = () => {
   return (
@@ -22,7 +22,7 @@ export const Sidebar = () => {
           </Link>
 
           <nav className=" hidden md:flex md:flex-initial">
-            <ul className="grid md:grid-cols-2 gap-1 mx-auto">
+            <ul className="grid md:grid-cols-3 gap-1 mx-auto">
               {/* <li className="flex justify-center items-center">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
@@ -37,17 +37,17 @@ export const Sidebar = () => {
                     }}
                   />
                 </a>
-              </li>
+              </li>*/}
               <li className="flex justify-center items-center">
                 <a
                   className="hover:bg-indigo-700  rounded-full p-1 xl:p-2"
-                  href="https://www.facebook.com"
+                  href="https://www.youtube.com/channel/UC9Z71npeh9XvNAIRwTs7WJw"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <YouTube style={{ color: "#f6e05e", fontSize: 25 }} />
                 </a>
-              </li> */}
+              </li>
 
               <li className="flex justify-center items-center ">
                 <a
