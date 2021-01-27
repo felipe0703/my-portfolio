@@ -14,16 +14,25 @@ export const CardProject = ({
   react_native = false,
   php = false,
   laravel = false,
+  img_fill = false,
 }) => {
   return (
-    <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-gradient-to-r from-purple-600 to-indigo-600 ">
+    <div className="max-w-sm rounded-md overflow-hidden shadow-lg bg-gradient-to-r from-purple-600 to-indigo-600 flex flex-col mx-auto">
       <div className="relative">
         <picture className="hover:visible">
-          <img
-            className="h-64 w-full object-cover object-top"
-            src={image}
-            alt="Imágen del proyecto"
-          />
+          {img_fill ? (
+            <img
+              className="h-48 w-full object-fill "
+              src={image}
+              alt="Imágen del proyecto"
+            />
+          ) : (
+            <img
+              className="h-48 w-full object-cover object-top"
+              src={image}
+              alt="Imágen del proyecto"
+            />
+          )}
         </picture>
         <div
           className="flex justify-evenly items-center
@@ -49,12 +58,13 @@ export const CardProject = ({
           </a>
         </div>
       </div>
-      <div className="px-6 py-4 bg-indigo-800 ">
+
+      <div className="px-6 py-4 bg-indigo-800 flex-grow">
         <div className="font-bold text-xl mb-2 text-white">{title}</div>
         <p className="text-gray-400 text-base">{description}</p>
       </div>
 
-      <div className="flex overflow-hidden justify-center flex-wrap mb-5 pt-5 px-2 ">
+      <div className="flex overflow-hidden justify-center flex-wrap mb-5 pt-5 px-2">
         {html && (
           <p className="mx-auto border border-gray-300 rounded-md text-sm font-medium py-0.5 px-2 text-gray-300 flex">
             <img

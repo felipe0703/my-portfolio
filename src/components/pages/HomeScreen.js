@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { CardProject } from "../ui/CardProject";
 import ImagePortafolioDemo from "../../assets/img/project/portafolio-demo.png";
+import ImagePokebola from "../../assets/img/project/miniatura-pokebola.png";
 
 export const HomeScreen = () => {
   return (
@@ -45,13 +46,23 @@ export const HomeScreen = () => {
             Mis proyectos
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-5 lg:gap-6 ">
             <CardProject
               image={ImagePortafolioDemo}
               title="Portafolio Demo"
-              description="Portafolio básico"
+              description="Portafolio básico creado con HTML y CSS"
               repo="https://github.com/felipeaguileradev/portafolio-demo"
               url="https://felipeaguileradev.github.io/portafolio-demo/"
+              html={true}
+              css={true}
+            />
+            <CardProject
+              image={ImagePokebola}
+              title="Dibujando con CSS - Pokebola"
+              description="Un tutorial de como dibujar una pokebola con HTML y CSS, usando pseudo-clases como after y before, además de animaciones"
+              repo="https://github.com/felipeaguileradev/tutorial-pokebola"
+              url="https://www.youtube.com/watch?v=WV_7LZc-FCY"
+              img_fill={false}
               html={true}
               css={true}
             />
