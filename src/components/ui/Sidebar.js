@@ -197,8 +197,15 @@ export const Sidebar = () => {
           </NavLink>
         </nav>
 
-        <div className="hidden md:flex md:justify-center">
-          <p className="p-4 text-white text-center">@felipeaguileradev</p>
+        <div className="hidden md:flex md:flex-col md:justify-center ">
+          <picture>
+            <img
+              className="mx-auto h-20"
+              src={require("../../assets/logo/Recurso2.svg")}
+              alt="Logo Felipe Aguilera"
+            />
+          </picture>
+          {/* <p className="p-4 text-white text-center">@felipeaguileradev</p> */}
         </div>
       </div>
     </header>

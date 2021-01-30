@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { CardProject } from "../ui/CardProject";
 import ImagePortafolioDemo from "../../assets/img/project/portafolio-demo.png";
 import ImagePokebola from "../../assets/img/project/miniatura-pokebola.png";
+import ImageCarrito from "../../assets/img/project/carrito-de-compras.png";
 
 export const HomeScreen = () => {
   return (
@@ -65,6 +66,17 @@ export const HomeScreen = () => {
               img_fill={false}
               html={true}
               css={true}
+            />
+            <CardProject
+              image={ImageCarrito}
+              title="Carrito de compras con Javascript"
+              description="Página de carrito de compras, hecha en HTML, CSS y JAVASCRIP"
+              repo="https://github.com/felipeaguileradev/carrito-de-compras"
+              url="https://felipeaguileradev.github.io/carrito-de-compras/"
+              img_fill={false}
+              html={true}
+              css={true}
+              javascript={true}
             />
           </div>
         </section>
