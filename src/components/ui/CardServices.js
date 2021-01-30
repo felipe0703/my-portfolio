@@ -17,9 +17,11 @@ export default function CardServices({
     <div className="max-w-sm rounded-xl overflow-hidden shadow-lg flex flex-col justify-center items-center bg-indigo-700 pt-4 bg-gradient-to-b from-indigo-700 via-indigo-800 to-indigo-900">
       <div
         className="h-32 w-32 bg-cover bg-center bg-no-repeat rounded-full bg-green-300"
-        style={{
-          backgroundImage: `url(${require("../../assets/img/pexels-pixabay-38519.jpg")})`,
-        }}
+        style={
+          {
+            // backgroundImage: `url(${require("../../assets/img/pexels-pixabay-38519.jpg")})`,
+          }
+        }
       ></div>
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2 text-white text-center">

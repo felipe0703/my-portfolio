@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { CardProject } from "../ui/CardProject";
-import ImagePortafolioDemo from "../../assets/img/project/portafolio-demo.png";
-import ImagePokebola from "../../assets/img/project/miniatura-pokebola.png";
-import ImageCarrito from "../../assets/img/project/carrito-de-compras.png";
+import ImagePortafolioDemo from "../../assets/img/project/portafolio-demo.webp";
+import ImagePokebola from "../../assets/img/project/miniatura-pokebola.webp";
+import ImageCarrito from "../../assets/img/project/carrito-de-compras.webp";
 
 export const HomeScreen = () => {
   return (

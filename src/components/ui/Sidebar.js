@@ -10,7 +10,7 @@ export const Sidebar = () => {
           <picture>
             <img
               className="rounded-full h-32 w-32 border-indigo-700 border-8"
-              src={require("../../assets/img/mia.png")}
+              src={require("../../assets/img/mia.webp")}
               alt="imagen código web"
             />
           </picture>
